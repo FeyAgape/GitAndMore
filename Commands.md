@@ -17,7 +17,7 @@ Getting started:
 4. Finishing a new feature: Once your new feature has been merge into the develop branch, to finish the development of the feature run `git flow feature finish FEATURENAME`. This action will remove the feature branch and switches back to the develop branch.
 
 5. For help run `git flow help` and you should recieve the following instruction.
-usage: git flow <subcommand> Available subcommands are:
+```usage: git flow <subcommand> Available subcommands are:
   
    `init`      Initialize a new git repo with support for the branching model.
   usage: git flow init [-h] [-d] [-f] - Setup a git repository for git flow usage. Can also be used to start a git repository.
@@ -42,7 +42,7 @@ usage: git flow <subcommand> Available subcommands are:
    `log`       Show log deviating from base branch.
 
 Try 'git flow <subcommand> help' for help or git flow init --help.
-
+```
 ## Git Branches
 
 Getting started: 
