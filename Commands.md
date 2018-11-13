@@ -4,7 +4,7 @@
 
 Getting started: 
 
-1. Initialise: To start using git-flow inside an existing git repository run `git flow init`. You'll have to answer a few questions regarding the naming conventions for your branches. It's recommended to use the default values.
+1. Initialise: To start using git-flow inside an existing git repository run `git flow init` or  `git flow init -fd`. You'll have to answer a few questions regarding the naming conventions for your branches. It's recommended to use the default values.
 
 2. Starting a new feature: To start developing a new feature run `git flow feature start NewFeature`. This action creates a new feature branch based on 'develop' and switches to it.
 
@@ -16,6 +16,32 @@ Getting started:
 
 4. Finishing a new feature: Once your new feature has been merge into the develop branch, to finish the development of the feature run `git flow feature finish FEATURENAME`. This action will remove the feature branch and switches back to the develop branch.
 
+5. For help run `git flow help` and you should recieve the following instruction.
+usage: git flow <subcommand> Available subcommands are:
+  
+   `init`      Initialize a new git repo with support for the branching model.
+  usage: git flow init [-h] [-d] [-f] - Setup a git repository for git flow usage. Can also be used to start a git repository.
+
+    -h, --help            Show this help
+    --showcommands        Show git commands while executing them
+    -d, --[no]defaults    Use default branch naming conventions
+    -f, --[no]force       Force setting of gitflow branches, even if already configured
+    --Use                 config file location
+    --local               use repository config file
+    --global              use global config file
+    --system              use system config file
+    --file ...            use given config file
+    
+   `feature`   Manage your feature branches.
+   `bugfix`    Manage your bugfix branches.
+   `release`   Manage your release branches.
+   `hotfix`    Manage your hotfix branches.
+   `support`   Manage your support branches.
+   `version`   Shows version information.
+   `config`    Manage your git-flow configuration.
+   `log`       Show log deviating from base branch.
+
+Try 'git flow <subcommand> help' for help or git flow init --help.
 
 ## Git Branches
 
