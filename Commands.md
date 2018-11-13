@@ -19,7 +19,7 @@ Getting started:
 5. For help run `git flow help` and you should recieve the following instruction.
 ```usage: git flow <subcommand> Available subcommands are:
   
-   `init`      Initialize a new git repo with support for the branching model.
+   init      Initialize a new git repo with support for the branching model.
   usage: git flow init [-h] [-d] [-f] - Setup a git repository for git flow usage. Can also be used to start a git repository.
 
     -h, --help            Show this help
@@ -32,14 +32,14 @@ Getting started:
     --system              use system config file
     --file ...            use given config file
     
-   `feature`   Manage your feature branches.
-   `bugfix`    Manage your bugfix branches.
-   `release`   Manage your release branches.
-   `hotfix`    Manage your hotfix branches.
-   `support`   Manage your support branches.
-   `version`   Shows version information.
-   `config`    Manage your git-flow configuration.
-   `log`       Show log deviating from base branch.
+   feature   Manage your feature branches.
+   bugfix    Manage your bugfix branches.
+   release   Manage your release branches.
+   hotfix    Manage your hotfix branches.
+   support   Manage your support branches.
+   version   Shows version information.
+   config    Manage your git-flow configuration.
+   log       Show log deviating from base branch.
 
 Try 'git flow <subcommand> help' for help or git flow init --help.
 ```
