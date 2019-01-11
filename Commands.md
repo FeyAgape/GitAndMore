@@ -77,4 +77,6 @@ Getting started:
 
 The `ls-remote` command returns the SHA1 hash of the latest commit for that reference, so it is quite easy to parse out and get to the exact commit you need if you’re doing some scripting. The `--heads` option lists only branch names since the command can list tags too.
 
-2. Once you know the name of the branch it’s quite simple to check them out. Run `git checkout BranchName` i.e git checkout `git checkout develop`.
+2. Once you know the name of the branch it’s quite simple to check them out. 
+- Run `git checkout BranchName` i.e git checkout `git checkout develop`.
+- If it's a feature branch: Run `git checkout feature/featurename` i.e git checkout `git checkout feature/task1`.
