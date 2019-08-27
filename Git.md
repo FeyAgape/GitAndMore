@@ -9,6 +9,7 @@ Getting Started:
 2. Initialise: To start using git inside a new repository that hasn'e been initialise with git before, run `git init`
 
 3. Committing your work: once your ready to push it to the repo
+- Run `git status` displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 - Run `git add -A` this will add all your different file changes.
 - Run `git commit -m "commit message here"` this will commit your changes making it ready to be push.
 - Run `git remote add origin https://github.com/Usernamme.test.git` this will add in the location of your repo. 
