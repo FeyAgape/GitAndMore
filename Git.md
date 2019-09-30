@@ -20,6 +20,11 @@ Getting Started:
 - Run `git commit -m "commit message here"` this will commit your changes making it ready to be push. 
 - Run `git push` this will send your changes to your remote repo.
 
+###### Extra
+
+- run `git show` - for a single commit will shows the log message and textual difference
+- run `git show --stat` - will show you the changes made
+- run `git log --stat` - will show you the commits message and files changes made
 
 ## Git Flow
 
@@ -91,16 +96,25 @@ Getting Started
 
 `git rebase` allows you to reapply commits on top of another base tip
 
-1. `git rebase origin/master` 
+1. run `git fetch` to "downloads" any new changes from the remote to your local repo
 
-If there are any conflicts, you will see a message like this
+2. run `git rebase origin/master` 
+
+If there are any conflicts, you will see a message similar to the below.
 
 ![alt text](https://github.com/FeyAgape/GitAndMore/raw/master/image1.png "Image1")
 
 
 
-2. run `git status` to see if they're any conflicts by accesses the files 
+Step A - run `git status` to see where or which files contains conflicts.
 
+Step B - Access the files and resolved the conflicts and then run `git add filename.ext`
+
+- run `git status` and repeat Step A + B untill all conflicts are resolved.
+
+2. run `git rebase --contiune`
+
+3. run `git push --force-with-lease`
 
 
 ## Git cherry-pick
