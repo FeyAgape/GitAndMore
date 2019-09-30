@@ -95,6 +95,8 @@ Getting Started
 
 If there are any conflicts, you will see a message like this
 
+![alt text](https://github.com/FeyAgape/GitAndMore/raw/master/image1.png "Image1")
+
 
 
 2. run `git status` to see if they're any conflicts by accesses the files 
