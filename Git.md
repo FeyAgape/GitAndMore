@@ -104,10 +104,12 @@ Getting Started
 
 3. Merge the branch and fix any conflicts that come up
 
-`git fetch origin`
-`git checkout origin/develop`
-`git merge --no-ff branchname`
+```
+git fetch origin
+git checkout origin/develop
+git merge --no-ff branchname
+```
 
 Step 4. Push the result of the merge to the repository
 
-git push origin develop
+`git push origin develop`
