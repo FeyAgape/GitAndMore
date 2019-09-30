@@ -97,8 +97,10 @@ Getting Started
 
 1. Fetch and check out the branch for this merge request
 
-`git fetch origin`
-`git checkout -b branchname origin/branchname`
+```
+git fetch origin
+git checkout -b branchname origin/branchname
+```
 
 2. Review the changes locally
 
