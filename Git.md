@@ -73,7 +73,7 @@ Getting started:
 
 1. The easiest way is just to use the `git branch` commands’, or various options.
 
-- Run `git fetch` "downloads" any new changes from the remote to your local repository
+- Run `git fetch` "downloads" any new changes from the remote to your local repository, `git fetch --all` will fetch all remotes.
 - Run `git branch -a` shows all local and remote branches
 - Run `git branch -r` shows only remote branches.
 - There’s also another way to figure out what branches are on your remote by actually using the remote related commands, `git remote` or `git remote show origin` and `git ls-remote` or `git ls-remote --heads origin`.
@@ -83,3 +83,31 @@ The `ls-remote` command returns the SHA1 hash of the latest commit for that refe
 2. Once you know the name of the branch it’s quite simple to check them out. 
 - Run `git checkout BranchName` i.e git checkout `git checkout develop`.
 - If it's a feature branch: Run `git checkout feature/featurename` i.e git checkout `git checkout feature/task1`.
+
+
+## Git Rebase
+
+Getting Started
+
+`git rebase` allows you to reapply commits on top of another base tip
+
+
+
+## Git Merge - Check out, review, and merge locally
+
+1. Fetch and check out the branch for this merge request
+
+`git fetch origin`
+`git checkout -b branchname origin/branchname`
+
+2. Review the changes locally
+
+3. Merge the branch and fix any conflicts that come up
+
+`git fetch origin`
+`git checkout origin/develop`
+`git merge --no-ff branchname`
+
+Step 4. Push the result of the merge to the repository
+
+git push origin develop
