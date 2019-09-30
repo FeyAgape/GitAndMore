@@ -91,6 +91,17 @@ Getting Started
 
 `git rebase` allows you to reapply commits on top of another base tip
 
+1. `git rebase origin/master` 
+
+If there are any conflicts, you will see a message like this
+
+
+
+2. run `git status` to see if they're any conflicts by accesses the files 
+
+
+
+## Git cherry-pick
 
 
 ## Git Merge - Check out, review, and merge locally
