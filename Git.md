@@ -116,7 +116,7 @@ Step B - Access the files and resolved the conflicts and then run `git add filen
 
 3. run `git push --force-with-lease`
 
-More (info)[https://git-scm.com/book/en/v2/Git-Branching-Rebasing]
+More [info](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 
 ## Git cherry-pick
