@@ -6,6 +6,7 @@ Getting Started:
 
 1. Optional: You can use echo to create a new file via the command line `echo "# test" >> README.md`
 
+
 2. Initialising git: To start using git inside a new repository that hasn't been initialise with git before, run `git init`
 
 3. Committing your work: once your ready to push it to the repo
@@ -25,6 +26,7 @@ Getting Started:
 - run `git show` - for a single commit will shows the log message and textual difference
 - run `git show --stat` - will show you the changes made
 - run `git log --stat` - will show you the commits message and files changes made
+
 
 ## Git Flow
 
@@ -144,3 +146,4 @@ git merge --no-ff branchname
 Step 4. Push the result of the merge to the repository
 
 `git push origin develop`
+
