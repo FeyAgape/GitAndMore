@@ -26,7 +26,7 @@ Getting Started:
 - run `git show` - for a single commit will shows the log message and textual difference
 - run `git show --stat` - will show you the changes made
 - run `git log --stat` - will show you the commits message and files changes made
-
+- run `git log` - will show you the commits message
 - run `git reset --soft HEAD~1` - this will undo your last commit
 
 ## Git Flow
