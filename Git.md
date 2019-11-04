@@ -115,7 +115,7 @@ Step B - Access the files and resolved the conflicts and then run `git add filen
 
 - run `git status` and repeat Step A + B untill all conflicts are resolved.
 
-2. run `git rebase --contiune`
+2. run `git rebase --continue`
 
 3. run `git push --force-with-lease`
 
