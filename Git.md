@@ -92,6 +92,10 @@ The `ls-remote` command returns the SHA1 hash of the latest commit for that refe
 - Run `git checkout BranchName` i.e git checkout `git checkout develop`.
 - If it's a feature branch: Run `git checkout feature/featurename` i.e git checkout `git checkout feature/task1`.
 
+3. Creating a new branch
+- Run `git checkout -b branchname`
+- Run `git branch` to check that it has actually created the branch for you`
+
 
 ## Git Rebase
 
@@ -123,6 +127,8 @@ More [info](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 
 ## Git cherry-pick
+
+Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes.
 
 
 ## Git Merge - Check out, review, and merge locally
