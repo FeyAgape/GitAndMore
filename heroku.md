@@ -22,13 +22,14 @@ git commit -am "make first commit"
 git push heroku master
 ```
 
-**If pushing to an Existing Git repository**
+**If pushing to an Existing Git repository or from a branch**
 
 For existing repositories, simply add the heroku remote
 
 `heroku git:remote -a name-of-the-project-or-app`
 
-**Alternative: If you are pushing from a branch - not master - 
+
+If you are pushing from a branch - not master - 
 
 run `git push heroku <branch_name>:master`
 
