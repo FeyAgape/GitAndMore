@@ -126,6 +126,54 @@ Step B - Access the files and resolved the conflicts and then run `git add filen
 More [info](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 
+**Rebasing your local Branch to clean up your commits**
+
+Getting Started: First find out how many commit their are first
+
+1. run `git rebase -i HEAD~9` if there are 10 commit or `git rebase -i HEAD~8` if there are 9 commits
+
+Breaking this command down:
+- `git rebase` — tells our terminal we are running Git with the rebase command
+- `-i` — tells git rebase to run in interactive mode (VIM)
+- `HEAD~9` — because we want the ability to rebase the last 9 commits (we don’t want to change our initial commit message), the number will depend on the number of commits in your local branch.
+
+2. 
+
+
+## Vim Editor Basics
+
+**Insert Mode**: The Insert mode lets you insert text in a document. The shortcut is: `i` (insert text where the cursor is) or `o` (insert text at the beginning of the following line).
+
+**Visual Mode**: The visual mode permits the user to select the text as you would do with a mouse but using the keyboard instead of the mouse. Useful to copy several lines of text for example. The shortcut is: `V`.
+
+**Command Mode**: When you are in another mod you can use the escape key (sometimes you'll need to hit it twice) to come back to command mod at any time. A command begins with the symbol `:`.
+
+**Editing**
+
+- In command mode. To start editing the file content, enter: `:i[enter]`
+
+- When you are finished with editing, press the [esc] key to go back to the command mode.
+
+- To save the file and exit the editor, enter: `:x[enter]`
+
+- In case you want to quit vim without saving the file, enter: `:q![enter]`
+
+
+**Extra's**: Vim Command Reference
+
+```
+save: :w
+save and exit: :wq
+exit: :q
+force: ! (example :w! :q!)
+vertical split: open a document and then type :vsplit /path-to-document/document and this will open the specified document and split the screen so you can see both documents.
+copy: y
+copy a line: yy
+paste: p
+cut: d
+cut a line: dd
+```
+
 ## Git cherry-pick
 
 Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes.
