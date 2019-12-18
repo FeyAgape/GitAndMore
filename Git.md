@@ -126,18 +126,34 @@ Step B - Access the files and resolved the conflicts and then run `git add filen
 More [info](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 
-**Rebasing your local Branch to clean up your commits**
+## Rebasing your local Branch (to clean up your commits)
 
 Getting Started: First find out how many commit their are first
 
-1. run `git rebase -i HEAD~9` if there are 10 commit or `git rebase -i HEAD~8` if there are 9 commits
+1. run `git rebase -i HEAD~9`
 
 Breaking this command down:
 - `git rebase` — tells our terminal we are running Git with the rebase command
 - `-i` — tells git rebase to run in interactive mode (VIM)
 - `HEAD~9` — because we want the ability to rebase the last 9 commits (we don’t want to change our initial commit message), the number will depend on the number of commits in your local branch.
 
-2. 
+2. You will get an option in the Vim editor commands of 
+
+```
+p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+```
+
+3. choose your option but for tidying up your commits, i will recommend squashing all commits into 1 and (pick or reword), but choose accordning to need.
+
+4. Save all the changes that you did in the vim editor by running `:wq` to save and exit the vim editor.
+
+5. Run `git log` to see everything that we expected did indeed happen.
 
 
 ## Vim Editor Basics
