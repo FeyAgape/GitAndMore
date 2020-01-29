@@ -156,7 +156,7 @@ p, pick = use commit
 5. Run `git log` to see everything that we expected did indeed happen.
 
 
-## Vim Editor Basics
+## Vim Editor Basics 
 
 **Insert Mode**: The Insert mode lets you insert text in a document. The shortcut is: `i` (insert text where the cursor is) or `o` (insert text at the beginning of the following line).
 
@@ -189,6 +189,9 @@ paste: p
 cut: d
 cut a line: dd
 ```
+
+More information [here](https://www.howtoforge.com/vim-basics)
+
 
 ## Git cherry-pick
 
