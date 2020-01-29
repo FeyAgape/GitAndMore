@@ -29,6 +29,12 @@ Getting Started:
 - run `git log` - will show you the commits message
 - run `git reset --soft HEAD~1` - this will undo your last commit
 
+## Creating a new repository on the command line
+
+1. Run `git add -A`
+2. Run `git commit -m "commit message here"` this will commit your changes making it ready to be push. 
+3. Run `git push` this will send your changes to your remote repo.
+
 ## Git Flow
 
 Getting started: 
