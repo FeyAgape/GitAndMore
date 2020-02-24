@@ -102,6 +102,9 @@ The `ls-remote` command returns the SHA1 hash of the latest commit for that refe
 - Run `git checkout -b branchname`
 - Run `git branch` to check that it has actually created the branch for you`
 
+4. Deleting a branch 
+- Run `git branch -d <branchname>`
+
 
 ## Git Rebase
 
