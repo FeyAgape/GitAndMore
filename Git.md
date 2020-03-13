@@ -28,6 +28,7 @@ Getting Started:
 - run `git log --stat` - will show you the commits message and files changes made
 - run `git log` - will show you the commits message
 - run `git reset --soft HEAD~1` - this will undo your last commit
+- run `git commit --amend --signoff` and then `git push --force-with-lease origin master` or `git push --force-with-lease`
 
 ## Creating a new repository on the command line
 
