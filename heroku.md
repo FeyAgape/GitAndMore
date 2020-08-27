@@ -12,6 +12,8 @@ If you haven't already log in to your Heroku account
 
 Initialize a git repository in a new or existing directory
 
+Run
+
 ```
 cd my-project/
 git init
@@ -22,6 +24,8 @@ heroku git:remote -a name-of-the-project
 
 Simply add the heroku remote
 
+Run
+
 `heroku git:remote -a name-of-the-project-or-app`
 
 
@@ -29,6 +33,9 @@ Simply add the heroku remote
 ## Deploy your application
 
 Commit your code to the repository and deploy it to Heroku using Git.
+
+Run
+
 ```
 git add .
 git commit -am "make first commit"
@@ -38,6 +45,7 @@ git push heroku master
 ## Deploying from a branch
 
 If you are pushing from a branch - not master 
+
 Run
 
 ```
@@ -45,7 +53,6 @@ git add .
 git commit -am "make first commit"
 git push heroku <branch_name>:master
 ```
-run 
 
 ## **Optional** Set a Username and Password for the app
 
