@@ -54,7 +54,9 @@ git commit -am "make first commit"
 git push heroku <branch_name>:master
 ```
 
-## **Optional** Set a Username and Password for the app
+## Optional: Set a Username and Password for the app
+
+Run
 
 ```
 heroku config:set USERNAME=username_here
