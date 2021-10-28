@@ -4,6 +4,18 @@
 
 Getting Started: 
 
+Set a Git username and email address:
+
+```
+git config --global user.name "your name"
+git config --global user.email "your.name@email.com"
+```
+
+Verify that the changes were made correctly:
+
+`git config --list`
+
+
 1. Optional: You can use echo to create a new file via the command line `echo "# test" >> README.md`
 
 
