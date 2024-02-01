@@ -26,7 +26,7 @@ Verify that the changes were made correctly:
 - Run `git commit filename.ext` to commit each individual file or`git add -A` this will add all your different file changes.
 - Run `git commit -m "commit message here"` this will commit your changes making it ready to be push.
 - Run `git remote add origin https://github.com/Usernamme.test.git` this will add in the location of your repo. 
-- Run `git push -u origin master` this will send your changes from your local machine to your remote repo, you specify in the step before.
+- Run `git push -u origin master` or `git push -u origin main` this will send your changes from your local machine to your remote repo, you specify in the step before.
 
 4. Additional pushes: once you've made the first push you don't need to add the remote origin again, so your process will be 
 - Run `git commit filename.ext` or `git add -A` this will add all your different file changes.
@@ -40,7 +40,7 @@ Verify that the changes were made correctly:
 - run `git log --stat` - will show you the commits message and files changes made
 - run `git log` - will show you the commits message
 - run `git reset --soft HEAD~1` - this will undo your last commit
-- run `git commit --amend --signoff` this will help signoff the previous commit and then `git push --force-with-lease origin master` or `git push --force-with-lease` to update master
+- run `git commit --amend --signoff` this will help signoff the previous commit and then `git push --force-with-lease origin master` or `git push --force-with-lease origin main`or `git push --force-with-lease` to update master or main
 
 ## Creating a new repository on the command line
 
@@ -127,7 +127,7 @@ Getting Started
 
 1. run `git fetch` to "downloads" any new changes from the remote to your local repo
 
-2. run `git rebase origin/master` 
+2. run `git rebase origin/master` or `git rebase origin/main` 
 
 If there are any conflicts, you will see a message similar to the below.
 
